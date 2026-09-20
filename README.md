@@ -7,6 +7,7 @@ Interactive Bash script for managing Grype vulnerability scans and generating **
 ## 🚀 About This Project
 
 This script fills a gap in the open-source vulnerability scanning ecosystem by providing **report filtering capabilities that Grype doesn't natively support via CLI commands**. While Grype DB v6 now includes KEV and EPSS data (issues #1511 and #1973), it lacks built-in filtering options for these critical prioritization signals.
+The HTML report template does not properly filter KEV or EPSS vulnerabilities! (tested September 19, 2026)
 
 ### Issues Addressed
 
